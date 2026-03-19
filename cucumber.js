@@ -1,5 +1,4 @@
 const { TIMEOUT } = require("node:dns");
-const { format } = require("node:path");
 
 module.exports = {
 
@@ -14,10 +13,8 @@ module.exports = {
         parellel: 1,
 
         // retry: 1,
-
-        headless: false,
-
-        TIMEOUT: 80000,
+        
+        TIMEOUT:80000,
         
 
     },
