@@ -9,7 +9,7 @@ module.exports = {
 
         require: ["tests/stepDef/**/*.js", "tests/support/**/*.js"],
 
-        format: ["progress"],
+        format: ["progress","allure-cucumberjs/reporter"],
 
         parellel: 1,
 
