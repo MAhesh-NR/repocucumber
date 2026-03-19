@@ -4,8 +4,9 @@ const { Before, After, setDefaultTimeout } = require("@cucumber/cucumber");
 setDefaultTimeout(60000);
 
 Before(async function () {
+    const isCI =process.env.CI;
 
-    this.browser = await chromium.launch({headless:true});
+    this.browser = await chromium.launch({headless: isCI ? true:false});
 
     this.tab = await this.browser.newContext();
 
