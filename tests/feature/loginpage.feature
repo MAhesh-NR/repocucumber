@@ -16,5 +16,5 @@ Examples:
 |userName||password||Result|
 |Trends234||Trends2224||fail|
 |Trend24||Trend789||fail|
-|  The    ||  Wrong   ||fail|
+|The||Wrong||fail|
 

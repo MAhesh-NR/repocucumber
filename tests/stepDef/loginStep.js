@@ -39,18 +39,15 @@ let logobj;
           Then('user navigates to the Search Hotel page',async function () {
             
 
-            await logobj.verify();
+            // await logobj.verify();
+            const log=new LoginPage(this.page)
+            await log.verify();
           
          });
 
 
- When('user enters the invalid <{string}> and invalid <{string}> and fail clicks the login button',async function (userName,password,Result) {
-               
-              await logobj.login(userName,password,Result);          
-
-         });
-
-         When('user enters the invalid {string} and invalid {string} and {string} clicks the login button', async function (userName,password,Result) {
+         When('user enters the invalid {string} and invalid {string} and {string} clicks the login button', 
+          async function (userName,password,Result) {
           await logobj.login(userName,password,Result);          
 
          });

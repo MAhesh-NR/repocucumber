@@ -12,9 +12,7 @@ module.exports = {
 
         parellel: 1,
 
-        // retry: 1,
-        
-        TIMEOUT:80000,
+         retry: 0,
         
 
     },

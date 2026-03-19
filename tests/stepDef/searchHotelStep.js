@@ -14,7 +14,7 @@ let searchHotelObj;
 logobj = new LoginPage(this.page);
             
             await logobj.navigateToUrl();
-            await logobj.login('Trends06208','Trends@06208');
+            await logobj.login('Trends06208','Trends@06208','fail');
             
  
   searchHotelObj = new SearchHotel(this.page);

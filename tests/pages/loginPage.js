@@ -44,6 +44,7 @@ async click1(){
 async verify(){
 
     await expect(this.page).toHaveTitle("Adactin.com - Search Hotel");
+    console.log("check")
     
 }
 
@@ -57,6 +58,7 @@ async login(userName,password,Result){
     //     await expect(this.page).toHaveURL('https://adactinhotelapp.com/SearchHotel.php');
     // }
     console.log(Result);
+    
 }
 async inValid(){
    
