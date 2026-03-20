@@ -26,13 +26,13 @@ async navigateToUrl(){
 
 async userName1(){
 
-    await this.userName.fill('Trends06208');
+    await this.userName.fill('MAheshNR');
 
 }
 
 async password1(){
 
-    await this.password.fill('Trends@06208')
+    await this.password.fill('JLX22X')
 }
 
 async click1(){
